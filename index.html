@@ -7,6 +7,7 @@
     <title>Home-Page</title>
     <link href="styles.css" rel="stylesheet" />
 </head>
+
 <body>
 
     <h2>@typography</h2>
@@ -75,29 +76,40 @@
     <header class="hero">
         <img class="hero-img" src="https://avatars.githubusercontent.com/u/96992709?v=4" />
         <h1 class="hero-heading">Suyash Nandurkar</h1>
-        <h5 class="hero-skills">The Web-Developer</h5>
+        <h5 class="hero-skills">Web-Developer</h5>
     </header>
     <hr>
 
 
     <h2>@section</h2>
-    <section>
-        <h3>normal section</h3>
-        <p>This will have white background</p>
+    <section class="section">
+        <div class="container container-center">
+            <h1>normal section</h1>
+            <p>This will have white background with container container-center</p>
+        </div>
     </section>
-    <section>
-        <h3>off white section</h3>
-        <p>This will have gray background</p>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>off white section</h1>
+            <p>This will have gray background with container container-center</p>
+        </div>
     </section>
     <hr>
 
 
     <h2>@footer</h2>
-    <footer>
+    <footer class="footer-header">
         <div>some small heading inside footer</div>
-        <ul>
-            <li>section one</li>
-            <li>section two</li>
+        <ul class="social-link list-non-bullet">
+            <li class="list-item-inline">
+                <a class="links" href="/">section one</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="links" href="/">section two</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="links" href="/">section three</a>
+            </li>
         </ul>
     </footer>
 
