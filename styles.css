@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400&family=Montserrat:wght@300&family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root{
-    --primary-color: #a78bfa; 
+    --primary-color: #a78bfa;
+    --dark-gray: #94a3b8; 
 }
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;;
 }
 hr{
     margin: 2rem 0rem;
@@ -54,7 +55,7 @@ hr{
 /* navigation */
 .navigation .nav-brand{
     font-weight: bold;
-    font-size: 2.2rem;
+    font-size: 1rem;
 }
 .navigation{
     background-color: var(--primary-color);
@@ -70,4 +71,24 @@ hr{
 }
 .navigation .link-active{
     font-weight: bold;
+}
+
+/* header */
+
+.hero{
+   padding: 2rem;
+}
+.hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading{
+    color: var(--dark-gray);
+    padding-top: 1rem;
+    text-align: center;
+}
+.hero .hero-skills{
+    color: var(--primary-color);
+    text-align: center;
 }
