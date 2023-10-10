@@ -1,119 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home-Page</title>
     <link href="styles.css" rel="stylesheet" />
 </head>
-
-<body>
-
-    <h2>@typography</h2>
-    <h1>Technologies</h1>
-    <p>I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and Web Hosting</p>
-    <small>This is the smallest text</small>
-    <hr>
-
-
-    <h2>@containers</h2>
-    <h3>Fluid Containers</h3>
-    <div class="container">This fluid container is end to end with page</div>
-    <h3>Center Containers</h3>
-    <div class="container-center">This Center container is in center</div>
-    <hr>
-
-
-    <h2>@links</h2>
-    <a class="link primary-link" href="/">Primary Text</a>
-    <a class="link secondary-link" href="/">Secondary Text</a>
-    <hr>
-
-
-    <h2>lists</h2>
-    <h3>unordered list</h3>
-    <ul class="list-non-bullet">
-        <li>item one</li>
-        <li>item two</li>
-        <li>item three</li>
-    </ul>
-    <h3>unordered inline list</h3>
-    <ul class="list-non-bullet">
-        <li class="list-item-inline">Inline item one</li>
-        <li class="list-item-inline">Inline item two</li>
-        <li class="list-item-inline">Inline item three</li>
-    </ul>
-    <h3>reversed ordered list</h3>
-    <ol reversed>
-        <li>item one</li>
-        <li>item two</li>
-        <li>item three</li>
-    </ol>
-    <hr>
-
-
-    <h2>nav</h2>
-    <small>This is used on the top of the page & use to get diffrent pages</small>
+<body class="margin-md">
+    
+    <!-- navigation -->
     <nav class="navigation">
         <div class="nav-brand">IAmSuyash</div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
-                <a class="link link-active" href="/">Home</a>
+                <a class="link link-active" href="/index.html">Home</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">Project</a>
+                <a class="link" href="/project.html">Project</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="">Blog</a>
+                <a class="link" href="/blog.html">Blog</a>
             </li>
         </ul>
     </nav>
-    <hr>
-
-
-    <h2>@header</h2>
+    <br>
+    <!-- header -->
     <header class="hero">
-        <img class="hero-img" src="https://avatars.githubusercontent.com/u/96992709?v=4" />
+        <img class="hero-img" src="/images/hero1.svg" />
         <h1 class="hero-heading">Suyash Nandurkar</h1>
         <h5 class="hero-skills">Web-Developer</h5>
     </header>
-    <hr>
-
-
-    <h2>@section</h2>
-    <section class="section">
-        <div class="container container-center">
-            <h1>normal section</h1>
-            <p>This will have white background with container container-center</p>
-        </div>
-    </section>
+    <br>
+    <!-- off-white section -->
     <section class="section ow">
         <div class="container container-center">
-            <h1>off white section</h1>
-            <p>This will have gray background with container container-center</p>
+            <h1>Technologies</h1>
+            <p>I'm familiar with Java, HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and Web Hosting</p>
         </div>
     </section>
-    <hr>
-
-
-    <h2>@footer</h2>
+    <br>
+    <!-- white section -->
+    <section class="section">
+        <div class="container container-center">
+            <h1>Projects</h1>
+            <p>I like to showcase my work and thus, you can see my projects hosted online</p>
+            <a class="link primary-link" href="/project.html">See Projects</a>
+        </div>
+    </section>
+    <br>
+    <!-- off-white section for blog -->
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Blogs</h1>
+            <p>I am also working on some technical and non techincal blogs. I like to document my journey of learning.</p>
+            <a class="link secondary-link" href="/blog.html">See Blogs</a>
+        </div>
+    </section>
+    <br>
+    <!-- footer -->
     <footer class="footer-header">
-        <div>some small heading inside footer</div>
+        <div class="content">Connect Social Media</div>
         <ul class="social-link list-non-bullet">
             <li class="list-item-inline">
-                <a class="links" href="/">section one</a>
+                <a class="links" href="https://www.linkedin.com/in/acefitboy/">Linkedin</a>
             </li>
             <li class="list-item-inline">
-                <a class="links" href="/">section two</a>
+                <a class="links" href="https://www.github.com/Nsuyash">GitHub</a>
             </li>
             <li class="list-item-inline">
-                <a class="links" href="/">section three</a>
+                <a class="links" href="https://twitter.com/acefitboy">twitter</a>
             </li>
         </ul>
     </footer>
-
-
 </body>
-
 </html>
