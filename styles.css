@@ -63,7 +63,7 @@ hr{
 /* navigation */
 .navigation .nav-brand{
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 .navigation{
     background-color: var(--primary-color);
