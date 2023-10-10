@@ -33,13 +33,13 @@ hr{
 /* link */
 .link{
     text-decoration: none;
-    padding: 0.5rem 1rem;
-    
+    padding: 0.5rem 1rem;111
 }
 .primary-link{
     background-color: var(--primary-color);
     border-radius: 1rem;
     color: white;
+    margin: 0.9rem;
 }
 
 .secondary-link{
