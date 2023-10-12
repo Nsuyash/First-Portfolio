@@ -144,6 +144,7 @@ hr {
     color: white;
     text-align: center;
     border-top-right-radius: 1rem;
+    margin-top: auto;
 }
 
 .footer-header .links {
@@ -160,6 +161,5 @@ hr {
 }
 
 .footer-header .links {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0rem 1rem;
 }
