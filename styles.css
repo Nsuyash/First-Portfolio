@@ -43,13 +43,13 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
-    margin: 1rem 1rem 1rem 0rem;
+    margin: 1rem 1rem 1rem 1rem;
     display: inline-block;
 }
 
 .secondary-link {
     max-width: 140px;
-    margin: 1rem 1rem 1rem 0rem;
+    margin: 1rem 1rem 1rem 1rem;
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
